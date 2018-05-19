@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  application:
+    name: config-server
+
+---
+# For deployment in Docker
+spring:
+  profiles: docker
+server:
+  port: 8888
